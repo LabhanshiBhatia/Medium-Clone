@@ -1,0 +1,280 @@
+/* Basic reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+    background-color: white;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden; /* Helps with floating elements */
+}
+
+/* Logo styling */
+.logo {
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Georgia', serif;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Search bar */
+.search-box {
+    float: left;
+    margin-top: 3px;
+    position: relative; /* Important for positioning the icon */
+}
+
+.search-box input {
+    padding: 8px 12px 8px 35px; /* Extra padding on left for the icon */
+    width: 200px;
+    height: 15px;
+    border: none;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+}
+
+/* Search icon styling */
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 3px;
+    color: #757575;
+}
+
+/* Right side buttons */
+.right-buttons {
+    float: right;
+}
+
+.write-button {
+    background: none;
+    border: none;
+    margin-right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.notification-button {
+    background: none;
+    border: none;
+    margin-right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.profile-button {
+    background-color: rgb(173, 34, 173);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-weight: normal;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Navigation bar styles */
+.navigation {
+    background-color: white;
+    padding: 15px 0px 2px 150px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    position: sticky; /* Make it sticky */
+    top: 0; /* Stick to the top */
+    z-index: 100; /* Ensure it appears above other content */
+}
+
+/* Navigation tab container - left side */
+.nav-tabs-left {
+    float: left;
+}
+
+/* Navigation tab container - right side */
+.nav-tabs-right {
+    float: right;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Navigation tabs styling */
+.nav-tab {
+    float: left;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #757575;
+}
+
+/* Active tab styling */
+.nav-tab.active {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+/* Plus button styling */
+.plus-button {
+    float: left;
+    padding: 15px 20px;
+    color: #757575;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* New badge styling */
+.new-badge {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+/* Main content container */
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden; /* For floated elements */
+}
+
+/* Left side content area */
+.left-content {
+    float: left;
+    width: 65%;
+}
+
+/* Right side sidebar */
+.right-content {
+    float: right;
+    width: 30%;
+    min-height: 1200px;
+}
+
+/* Make the Staff Picks sticky */
+.sticky-wrapper {
+    overflow: hidden;
+    position: sticky; /* Make it sticky */
+    top: 0; /* Stick to the top */
+    z-index: 100; /* Ensure it appears above other content */
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Staff picks section */
+.staff-picks {
+    margin-bottom: 30px;
+}
+
+/* Article styles */
+.article {
+    margin-bottom: 40px;
+    clear: both;
+}
+
+/* Publication info */
+.publication {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.publication img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+    border-radius: 50%; /* Make profile images circular */
+}
+
+.verified-icon {
+    color: blue;
+    font-size: 12px;
+}
+
+/* Article title */
+.article-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Article subtitle */
+.article-subtitle {
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Article content layout */
+.article-layout {
+    overflow: hidden; /* For floated elements */
+}
+
+.article-text {
+    float: left;
+    width: 65%;
+}
+
+.article-image {
+    float: right;
+    width: 30%;
+}
+
+.article-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Article meta info */
+.article-meta {
+    margin-top: 15px;
+    color: #757575;
+    font-size: 14px;
+}
+
+.article-meta span {
+    margin-right: 15px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.staff-pick {
+    margin-bottom: 20px;
+}
+
+.staff-pick-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.staff-pick-date {
+    color: #757575;
+    font-size: 14px;
+}
+
+/* Topics section */
+.topics-section {
+    margin-top: 30px;
+}
+
+.topic-tag {
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
